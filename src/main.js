@@ -1,12 +1,4 @@
-import React, {Component} from 'react';
-import { render } from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class Header extends Component {
-    render() {
-        return (
-            <h1>{this.props.title}</h1>
-        );
-    }
-}
-
-render(<Header title={"Hello, I am a superheader!"}  />, document.getElementById('app'));
+ReactDOM.render(<h1>This is test!</h1>, document.getElementById('app'));
